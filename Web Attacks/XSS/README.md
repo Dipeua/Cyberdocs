@@ -1,0 +1,15 @@
+# CrossSite Scripting (XSS)
+
+Type of XSS
+- XSS Reflected
+- XSS Stored
+- XSS DOM Based
+- XSS Blind
+
+
+### Blind XSS
+
+Lors du test des vulnérabilités Blind XSS, vous devez vous assurer que votre charge utile a un rappel (généralement une requête HTTP). De cette façon, vous savez si et quand votre code est exécuté.
+
+Un outil populaire pour les attaques Blind XSS est [XSS Hunter Express](https://github.com/mandatoryprogrammer/xsshunter-express) cet outil capture automatiquement les cookies, les URL, le contenu des pages et bien plus encore.
+

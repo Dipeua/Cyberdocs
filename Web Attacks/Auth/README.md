@@ -1,0 +1,3 @@
+[[Brute force]]
+[[Logic Flaw]]
+
