@@ -1,4 +1,6 @@
-https://www.exploit-db.com/google-hacking-database/
+- https://www.exploit-db.com/google-hacking-database/
+- https://www.google.com/advanced_search
+- https://archive.org/web/
 
 PDF documents in a specific site or domain can be searched
 
@@ -64,10 +66,4 @@ Rechercher dans un titre
 intitle:"index of" "parent directory"
 ```
 
----
-#links 
-
-https://www.google.com/advanced_search
-
-https://archive.org/web/
 

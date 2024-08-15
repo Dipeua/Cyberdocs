@@ -1,4 +1,4 @@
-Fait partie la phase de [[Initial Access/README|l'access initial]]
+Fait partie la phase de l'access initial
 
 Le but est d'envoyer un fichier `.desktop` a notre cible et obtenir un reverse shell.
 

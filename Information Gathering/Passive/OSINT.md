@@ -1,9 +1,7 @@
-Les certificat révèlent les détails comme :  l'adresse e-mail et le nom de l'entreprise qui pourraient être utilisés pour mener une attaque de phishing.
-
 Certificate transparency.
 
 ```sh
-curl -s https://crt.sh/\?q\=<target-domain>\&output\=json | jq .
+curl -s 'https://crt.sh/\?q\=<target-domain>\&output\=json' | jq .
 ```
 
 Scan each IP address in a list using Shodan.
@@ -19,16 +17,16 @@ Whois, le registraire de domaine
 whois <FQDN/IP>
 ```
 
-https://whois.icann.org
-https://www.namecheap.com
+- https://whois.icann.org
+- https://www.namecheap.com
 
 ---
 Netcraft
-https://searchdns.netcraft.com
+- https://searchdns.netcraft.com
 
 ---
 Open Source Code
-https://github.com
+- https://github.com
 
 ```c
 filename:KEYWORDS*
@@ -40,19 +38,19 @@ Use tools like to automate process
 
 ---
 Security Headers  Scanner
-https://securityheaders.com
+- https://securityheaders.com
 
 ---
 Pastebin
-https://pastebin.com
+- https://pastebin.com
 
 ---
 Social Media Tools
-https://social-searcher.com
+- https://social-searcher.com
 
 Site-Specific Tools
-https://digi.ninja/projects/twofi.php
-https://github.com/initstring/linkedin2username
+- https://digi.ninja/projects/twofi.php
+- https://github.com/initstring/linkedin2username
 
 ---
 Information Gathering Frameworks
