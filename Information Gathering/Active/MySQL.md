@@ -15,7 +15,6 @@ nmap --script=mysql-enum <FQDN/IP>
 use auxiliary/admin/mysql/mysql_sql
 ```
 
----
 Exploiter MySQL
 
 Extraire des hachages de mots de passe 

@@ -1,3 +1,9 @@
+Basic Syntax
+
+```sh
+john --wordlist=/usr/share/wordlists/rockyou.txt hash_to_crack.txt
+```
+
 Lister tous les formats
 
 ```sh
@@ -6,10 +12,10 @@ john --list=formats
 
 Identifier les hachages:
 - https://hashes.com/en/tools/hash_identifier
-- `hash-id HASH`
-- `hash-identifier`
-
-Mode de fissure unique
+- `hashid HASH`
+- `hash-identifier HAS`
+---
+Single Crack Mode (Mode de fissure unique)
 Le contenu du `hash.txt` doit etre de la forme suivante: `USER:HASH`
 
 ```sh
@@ -17,11 +23,11 @@ john --single --format=[format] hash.txt
 ```
 
 ---
-#rules
+# Custom Rules
 https://www.openwall.com/john/doc/RULES.shtml
-Les attaques basées sur des règles ou attaques hybrides. Ici ont supposent que l'attaquant connaît la politique de mot de passe.
+Pour cette  attaques, on supposent que l'attaquant connaît la politique de mot de passe.
 
-Pour voir toutes les règles disponibles
+Pour voir toutes les règles disponibles:
 
 ```sh
 cat /etc/john/john.conf|grep "List.Rules:" | cut -d"." -f3 | cut -d":" -f2 | cut -d"]" -f1 | awk NF
@@ -29,7 +35,7 @@ cat /etc/john/john.conf|grep "List.Rules:" | cut -d"." -f3 | cut -d":" -f2 | cut
 
 Modifier le fichier `/etc/john/john.conf` et ajouter a la fin:
 
-```
+```c
 [List.Rules:RULE_NAME]
 Az"[0-9][0-9]" ^[!@]
 cAz"[0-9] [!£$%@]"
@@ -56,6 +62,6 @@ Utilisation de règles personnalisées
 ```sh
 john --rules=RULE_NAME --wordlist=wordlist.lst hash.txt
 #--stdout
-```
+er```
 
 Pour plus d'information sur les rules : https://www.openwall.com/john/doc/RULES.shtml

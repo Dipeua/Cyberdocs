@@ -40,3 +40,10 @@ rdesktop ... -g 1024x768 -x 0x80
 ```sh
 Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
 ```
+
+
+Examiner les DLL utiliser par un processus
+
+```c
+tasklist /m /fi "pid eq {id:1304}"
+```
