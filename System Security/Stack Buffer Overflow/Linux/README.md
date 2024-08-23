@@ -1,5 +1,3 @@
-Les protections de mémoire modernes **DEP (Data Execution Prevention)** , **ASLR (Address Space Layout Randomization)** et **Canarie**
-
 Désactiver la protection mémoire et compiler le programme dans un binaire ELF 32 bits.
 
 ```sh
@@ -31,11 +29,4 @@ readelf -l file
 1. [[ret2libc]]
 2. [[shellcode]]
 3. [[reverse-shell]]
-
----
-# Registre
-
-EBP  - The base pointer
-ESP  - The stack pointer
-EIP   -  The instruction pointer
 
