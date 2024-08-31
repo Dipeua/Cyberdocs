@@ -1,5 +1,6 @@
 {
   "promptDelete": false,
   "spellcheck": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "focusNewTab": false
 }

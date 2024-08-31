@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "472101a2de2e8dc0",
+        "id": "07cda4eefea9ebf6",
         "type": "tabs",
         "children": [
           {
-            "id": "810ef6c47eb0eea2",
+            "id": "f739375e587804b7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Active Directory/old/Attacks/Silver & Golden Tickets.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "System Security/README.md",
+                "file": "Active Directory/old/Attacks/Silver & Golden Tickets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "System Security/README.md",
+                "file": "Active Directory/old/Attacks/Silver & Golden Tickets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "System Security/README.md"
+                "file": "Active Directory/old/Attacks/Silver & Golden Tickets.md"
               }
             }
           }
@@ -142,35 +146,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1fc105a176f95205",
+  "active": "f739375e587804b7",
   "lastOpenFiles": [
-    "System Security/Stack Buffer Overflow/Windows/x86/00 - Programs.md",
+    "Active Directory/old/Attacks/Silver & Golden Tickets.md",
+    "Active Directory/old/Post Exploitation/CVE-2021-42278.md",
+    "Active Directory/old/Post Exploitation/GPO.md",
+    "Active Directory/old/Post Exploitation/README.md",
+    "Active Directory/old/Post Exploitation/Unconstrained Delegation.md",
+    "Active Directory/old/Kerberos Delegation.md",
+    "Active Directory/old/Mimikatz.md",
+    "Active Directory/old/README.md",
+    "Active Directory/old/Enumaration/Enumeration.md",
+    "Active Directory/old/Attacks/ZeroLogon.md",
+    "Active Directory/old/Attacks/NTLM Relay.md",
+    "Active Directory/old/Attacks/Kerberoasting.md",
+    "Active Directory/old/Attacks/AS-REP Roasting.md",
+    "System Security/Stack Buffer Overflow/Linux/Stack/reverse-shell.md",
+    "System Security/Stack Buffer Overflow/Linux/Stack/shellcode.md",
+    "System Security/Stack Buffer Overflow/Linux/Stack/ret2libc.md",
     "System Security/README.md",
-    "System Security/Stack Buffer Overflow/Windows/Mona.md",
     "System Security/Stack Buffer Overflow/Linux/README.md",
+    "Web Exploitation/XSS/Payloads JS.md",
+    "Web Exploitation/XSS/XSS.md",
+    "Defense",
+    "Hints/Links.md",
+    "Defense/Wireshark and Tcpdump/Wireshark.md",
+    "Hints/iNE.md",
+    "Hints/GitTools.md",
+    "Hints/Windows.md",
+    "Hints/Sniffing.md",
+    "Defense/Wireshark and Tcpdump",
     "System Security",
-    "Post Exploitation/C2/Redirector.md",
-    "Post Exploitation/C2/README.md",
-    "Post Exploitation/Privelege Escalation/Windows/02 - Automated Enumeration Tools.md",
-    "Post Exploitation/Privelege Escalation/Windows/Windows Privileges.md",
-    "Post Exploitation/Privelege Escalation/Windows/Scheduled Tasks.md",
-    "Post Exploitation/Privelege Escalation/Windows/Harvesting Passwords from Usual Spots.md",
-    "Post Exploitation/Privelege Escalation/Windows/AlwaysInstallElevated.md",
-    "Post Exploitation/Privelege Escalation/Windows/Services Permissions.md",
-    "Post Exploitation/Evasions/README.md",
-    "Post Exploitation/Evasions/Host Security.md",
-    "Post Exploitation/Evasions/AV/README.md",
-    "Post Exploitation/Evasions/Network Security.md",
-    "Initial Access/Weaponization/WSH.md",
-    "Initial Access/Weaponization/VBA.md",
-    "Initial Access/Weaponization/Social Engineering Linux Target.md",
-    "Initial Access/Weaponization/PSH.md",
-    "Initial Access/Weaponization/Object Linking and Embedding.md",
-    "Initial Access/Weaponization/HTA.md",
-    "Initial Access/Weaponization/README.md",
-    "Initial Access/README.md",
-    "Initial Access/Weaponization/Client Fingerprint.md",
-    "Information Gathering/Passive/Recon-ng.md",
     "IMG"
   ]
 }

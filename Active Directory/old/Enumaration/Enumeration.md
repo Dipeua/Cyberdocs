@@ -1,4 +1,4 @@
-#kerbrute
+**kerbrute**
 
 Enumérer les utilisateurs valides en abusant de la pré-authentification Kerberos.
 
@@ -6,9 +6,7 @@ Enumérer les utilisateurs valides en abusant de la pré-authentification Kerber
 kerbrute userenum names.txt --dc 192.168.75.152 -d homelab.local
 ```
 
-#BloodHound
-
-#DNS 
+**DNS** 
 Transfert de zone DNS pour lister tous les enregistrements :
 
 ```c
