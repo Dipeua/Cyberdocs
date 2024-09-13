@@ -1,11 +1,10 @@
-Internet Printing Protocol (IPP) tourne sur le port 631.
-Est un protocole Internet spécialisé pour la communication entre les périphériques clients et les imprimantes.
+Internet Printing Protocol (IPP) tourne sur le port 631, spécialisé pour la communication entre les périphériques clients et les imprimantes.
 
 Lorsqu'un port IPP est ouvert sur Internet, il est possible pour n'importe qui d'imprimer sur l'imprimante ou même de transférer des données malveillantes. Cela peut exposer de nombreuses informations sensibles telles que le nom de l'imprimante, l'emplacement, le modèle, la version du micrologiciel ou même le SSID Wi-Fi de l'imprimante.
 
 La plupart d'entre eux semblent exécuter le serveur CUPS (qui est un simple système d'impression UNIX).
 
-#Exploitation 
+## Exploitation 
 
 ```sh
 git clone https://github.com/RUB-NDS/PRET

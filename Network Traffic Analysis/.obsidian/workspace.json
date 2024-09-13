@@ -1,0 +1,180 @@
+{
+  "main": {
+    "id": "d88be7c3d2005b14",
+    "type": "split",
+    "children": [
+      {
+        "id": "aaab72327856035c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8eb4d71726a506dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Wireshark/Capturing Kerberose Pre-Auth.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d7cfc391c1f2f47b",
+    "type": "split",
+    "children": [
+      {
+        "id": "be4022b555a0a21e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c070b549d7e5773a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b5761210c9f907fd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0904f753d6f87bee",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "97c36ba4a0321007",
+    "type": "split",
+    "children": [
+      {
+        "id": "f44ad3d37a74f7a9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4f50df18330a6eb7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Wireshark/Capturing Kerberose Pre-Auth.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "27c05871a0ac5743",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Wireshark/Capturing Kerberose Pre-Auth.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8372eeb60a90e62c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "987cec7f93f41636",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Wireshark/Capturing Kerberose Pre-Auth.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "canvas:Créer une nouvelle toile": false,
+      "daily-notes:Ouvrir la note quotidienne": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false
+    }
+  },
+  "active": "8eb4d71726a506dc",
+  "lastOpenFiles": [
+    "Wireshark/README.md",
+    "IPTable.md",
+    "README.md",
+    "TCPDump/README.md",
+    "Wireshark/Capturing Kerberose Pre-Auth.md",
+    "Wireshark/Filters.md",
+    "TShark/README.md",
+    "TShark",
+    "Wireshark/Capture Filter.md",
+    "Wireshark/Images/pre-auth-kerberos.png",
+    "Wireshark/Images/pre-auth-hashcat.png",
+    "Wireshark/img/Pasted image 20240910083242.png",
+    "Pasted image 20240910083242.png",
+    "Wireshark/Images/follow.png",
+    "Wireshark/img/Pasted image 20240716002739.png",
+    "Wireshark/Images/colonne.png",
+    "Wireshark/img/Pasted image 20240716002513.png",
+    "Wireshark/Images/color.png",
+    "Wireshark/img/Pasted image 20240716002113.png",
+    "TCPDump/Images",
+    "TCPDump",
+    "img/osi.md",
+    "Images",
+    "Sans titre.md",
+    "Wireshark",
+    "hint",
+    "Wireshark/Images",
+    "Bienvenue.md"
+  ]
+}
