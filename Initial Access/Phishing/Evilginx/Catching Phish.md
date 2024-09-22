@@ -60,5 +60,5 @@ auth_tokens:
 
 Copuer le result du cookie dans EditThisCookie
 
-[[Personalizing Lures]]
+[Personalizing Lures](./Personalizing%20Lures.md)
 
