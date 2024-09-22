@@ -1,16 +1,6 @@
-Lorsque vous créez un code d'application, le fichier apk contient un fichier .dex, qui contient le bytecode binaire Dalvik. Smali est un langage assembleur qui s'exécute sur Dalvik VM, qui est la JVM d'Android.
+# Structure d'une APK
 
-### The Mobile Application Penetration Testing Process
-
-- [[00 - Information Gathering (Google Play Store)]] 
-- [[02 - Static Analysic]]
-- [[03 - Dynamic Analysic]]
-- Reporting
-
-----
-### Structure d'une APK
-
-- `AndroidManifest.xml` : le fichier manifeste au format XML binaire .
+- `AndroidManifest.xml` : le fichier de configuration manifeste au format XML binaire .
 
 - `META-INF/` : dossier contenant le fichier `MANIFEST.MF`, qui stocke les métadonnées sur le contenu du JAR. qui sera parfois stocké dans un dossier nommé original. La signature de l'APK est également stockée dans ce dossier.
 
@@ -23,3 +13,26 @@ Lorsque vous créez un code d'application, le fichier apk contient un fichier .d
 - `classes.dex` : code d'application compilé au format dex.
 
 - `res/`: dossier contenant des ressources non compilées dans resources.arsc
+
+> Lorsque vous créez un code d'application, le fichier apk contient un fichier .dex, qui contient le bytecode binaire Dalvik. 
+
+> Smali est un langage assembleur qui s'exécute sur Dalvik VM, qui est la JVM d'Android.
+
+## The Mobile Application Penetration Testing Process
+
+- [Information Gathering (Google Play Store)](./00%20-%20Information%20Gathering%20(Google%20Play%20Store).md)
+
+- [Static Analysic](./02%20-%20Static%20Analysic.md)
+
+- [Dynamic Analysic](./03%20-%20Dynamic%20Analysic.md)
+
+- Reporting
+
+
+**Lien**
+
+- [OWASP Mobile Application Pentesting Gitbook](https://mobile-security.gitbook.io/mobile-security-testing-guide/overview/0x03-overview)
+
+- [OWASP Mobile Top 10](https://owasp.org/www-project-mobile-top-10)
+
+- [APK Deguard](http://apk-deguard.com/)

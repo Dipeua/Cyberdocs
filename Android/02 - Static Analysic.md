@@ -9,8 +9,7 @@ Se fait sans exécuter le programme, qu'allons-nous identifier dans cette salle 
 - Les cles API Secret
 - Les stockage S3 Bucket
 
----
-# AndroidManifest.xml
+**AndroidManifest.xml**
 
 C'est l'endroit ou est defini la base de l'application elle peut contenir des elements comme:
 - minSDKVersion
@@ -21,14 +20,10 @@ C'est l'endroit ou est defini la base de l'application elle peut contenir des el
 	- Hidden Screen
 - Content Providers
 
----
-
-#### Quoi chercher?
-
-- Données sensibles dans le code
+## Quoi chercher?
+Données sensibles dans le code
 Ont peut trouver noms d'utilisateurs, des mots de passe, IP interne et plus encore...
 
----
 
  - Utilisation de la cryptographie faible ou inappropriée
 peuvent entraîner l'exposition de données sensibles, une fuite de clé, une authentification brisée, une session non sécurisée et une attaque par usurpation d'identité.

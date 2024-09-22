@@ -85,7 +85,7 @@ tcp[tcpflags] == tcp-push
 tcp[tcpflags] == x
 ```
 
-![](Images/indicator.png)
+![](../Images/indicator.png)
 
 Par exemple, pour les paquets dont les indicateurs `PSH` et `ACK` sont définis, la valeur décimale devient `00011000 = 24`, et l'expression devient 
 
@@ -93,7 +93,7 @@ Par exemple, pour les paquets dont les indicateurs `PSH` et `ACK` sont définis,
 tcp [tcpflags] == 24
 ```
 
-![](Images/indicator-cmd.png)
+![](../Images/indicator-cmd.png)
 
 
 

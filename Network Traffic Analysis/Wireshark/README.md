@@ -3,7 +3,7 @@ La dissection de paquets ou dissection de protocole, étudie les détails des pa
 
 Les paquets se composent de 5 à 7 couches basées sur le modèle OSI.
 
-![](Images/couches.png)
+![](../Images/couches.png)
 
 - Couche 1 : Montre quelle trame/paquet vous regardez et les détails spécifiques à la couche physique.
 
@@ -26,59 +26,59 @@ Wireshark calcule le nombre de paquets étudiés et attribue un numéro unique �
 **Accéder au paquet**
 Permettent de revenir facilement à un point spécifique d'un événement.
 
-![](Images/gotopacket.png)
+![](../Images/gotopacket.png)
 
 **Trouver des paquets**
 Wireshark peut rechercher des paquets en fonction de leur contenu.
 
-![](Images/findpacket.png)
+![](../Images/findpacket.png)
 
 **Marquer les paquets**
 Les paquets marqués seront affichés en noir quelle que soit la couleur d'origine représentant le type de connexion.
 
-![](Images/markpacket.png)
+![](../Images/markpacket.png)
 
 **Commentaires sur le paquet**
 Similairement au marquage des paquets, les commentaires aideront à l'investigation ultérieure ou rappelleront et signaleront des points importants/suspects aux autres analystes de la couche.
 
-![](Images/commentpacket.png)
+![](../Images/commentpacket.png)
 
 Contrairement au marquage des paquets, les commentaires peuvent rester dans le fichier de capture jusqu'à ce que l'opérateur les supprime.
 
 **Exporter des objets (fichiers)**
 Wireshark peut extraire les fichiers transférés via le réseau. L'exportation d'objets n'est disponible que pour les flux de protocoles sélectionnés (DICOM, HTTP , IMF, SMB et TFTP).
 
-![](Images/exportobject.png)
+![](../Images/exportobject.png)
 
 
 **Format d'affichage de l'heure**
 Par défaut, Wireshark affiche l'heure en « secondes depuis le début de la capture », l'utilisation courante consiste à utiliser le format d'affichage de l'heure UTC pour une meilleure vue.
 
-![](Images/time1.png)
-![](Images/time2.png)
+![](../Images/time1.png)
+![](../Images/time2.png)
 
 **Informations d'expert**
 Wireshark détecte également des états spécifiques de protocoles pour aider les analystes à repérer facilement d'éventuelles anomalies et problèmes.
  
 Notez qu'il ne s'agit que de suggestions et qu'il existe toujours un risque d'obtenir de faux positifs/négatifs. 
 
-![](Images/Informationsexpert.png)
+![](../Images/Informationsexpert.png)
 
-![](Images/Informationsexpert2.png)
+![](../Images/Informationsexpert2.png)
 
 # Packet Filtering
 
 **Coloriser la conversation**
 Met en évidence les paquets liés sans appliquer de filtre d'affichage et diminue le nombre de paquets visualisés.
 
-![](Images/color.png)
+![](../Images/color.png)
 
 **Appliquer comme colonne**
 
-![](Images/colonne.png)
+![](../Images/colonne.png)
 
 
 **Suivre le flux**
 Wireshark affiche tout en taille de portion de paquet. Cependant, il est possible de reconstituer les flux et d'afficher le trafic brut tel qu'il est présenté au niveau de l'application et est également possible d'afficher les données de protocole non chiffrées
 
-![](Images/follow.png)
+![](../Images/follow.png)

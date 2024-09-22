@@ -1,5 +1,4 @@
-
-#Advenced
+**Advenced**
 
 Installer l'application avec adb
 

@@ -2,7 +2,7 @@
 
 Exploitation du fournisseur de contenu
 
-```c
+```sh
 run app.provider.info -a package_name
 
 run scanner.provider.finduris -a package_name
@@ -20,7 +20,7 @@ run scanner.provider.traversal -a package_name
 
 Exploitation des services
 
-```c
+```sh
 run app.service.info -a package_name
 
 run app.service.start --action action --component package_name component_name
