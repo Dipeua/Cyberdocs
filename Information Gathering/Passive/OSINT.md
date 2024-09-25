@@ -27,7 +27,7 @@ Netcraft
 ---
 Open Source Code
 - https://github.com
-
+- https://stackoverflow.com/
 ```c
 filename:KEYWORDS*
 ```
@@ -35,6 +35,13 @@ filename:KEYWORDS*
 Use tools like to automate process
 - https://github.com/michenriksen/gitrob
 - https://github.com/michenriksen/gitleaks
+
+---
+
+Déterminer si les informations d'une personne, ont déjà été impliquées dans une violation de données
+
+- https://haveibeenpwned.com/
+- https://www.dehashed.com/
 
 ---
 Security Headers  Scanner

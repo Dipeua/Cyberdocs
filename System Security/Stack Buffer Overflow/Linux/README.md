@@ -7,7 +7,7 @@ gcc -z execstack -fno-stack-protector -m32 bof.c -o debug
 file debug | tr "," "\n"
 ```
 
-Rendre kes syntaxe en `Intel`
+Rendre la syntaxe en `Intel`
 
 ```sh
 echo 'set disassembly-flavor intel' > ~/.gdbinit
@@ -32,10 +32,9 @@ strcat
 ...
 ```
 
----
-# Buffer Overflows  x86 Techniques
+## Buffer Overflows  x86 Techniques
 
-1. [[ret2libc]]
-2. [[shellcode]]
-3. [[reverse-shell]]
+1. [shellcode](./Stack/shellcode.md)
+2. [ret2libc](./Stack/ret2libc.md)
+3. [reverse shell](./Stack/reverse-shell.md)
 

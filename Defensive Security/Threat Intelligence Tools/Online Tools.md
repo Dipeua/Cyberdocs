@@ -25,6 +25,4 @@ Cisco Talos regroupe six équipes clés :
 
 - **Intelligence sur les menaces et interdiction :** Transforme de simples IOC en informations riches en contexte.
 
-
-
 Plus d'informations: [livre blanc.](https://www.talosintelligence.com/docs/Talos_WhitePaper.pdf)

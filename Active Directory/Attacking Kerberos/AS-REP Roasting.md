@@ -4,7 +4,7 @@ AS-REP Roasting vide les hachages krbasrep5 des comptes d'utilisateurs pour lesq
 **Impacket**
 
 ```sh
-impacket-GetNPUsers.py target.local/user:password -dc-ip 192.168.x.x -request
+impacket-GetNPUsers.py pwnlab.local/user:password -dc-ip 192.168.x.x -request
 ```
 
 **Rubeus**

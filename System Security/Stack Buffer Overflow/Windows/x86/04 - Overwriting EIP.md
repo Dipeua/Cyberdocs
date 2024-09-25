@@ -1,5 +1,9 @@
 On utilise la valeur retourner par l'offset
-`msf-pattern_offset -l 3000 -q {386F4337}`
+
+```sh
+msf-pattern_offset -l 3000 -q {386F4337}
+```
+
 => 2003
 
 > Donc nous avons 2003 bytes avant d'arriver a l'EIP et l'EIP lui meme est de 4 octect de long

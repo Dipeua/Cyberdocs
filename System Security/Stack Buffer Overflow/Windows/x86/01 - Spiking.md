@@ -1,13 +1,12 @@
 > Spiking: Ce sont des methodes utiliser pour rechercher un type de vulnerabiliter dans nos programmes ou une partie vulnerable d'un programme. 
 
-NB:
-	Le serveur vulnerable est en marche et Immunity aussi
+NB: Le serveur vulnerable est en marche et Immunity aussi
 
 * Toute les commandes sont des point d'entrer du BOF on les teste un a un et voir quel se casse.
 
 * Focus sur la commande TRUN.
 
-```bash
+```sh
 └─$ nc -nv 192.168.1.130  9999
 (UNKNOWN) [192.168.1.130] 9999 (?) open
 Welcome to Vulnerable Server! Enter HELP for help.
@@ -31,10 +30,10 @@ EXIT
 
 Execution: 
 
-- regarder les fihiers .spk
+regarder les fihiers .spk
 
-```bash
+```sh
 generic_send_tcp host port file.spk 0 0
 ```
 
-- si le programme plante, c'est une preuve d'une vulnerabiliter
+si le programme plante, c'est une preuve d'une vulnerabiliter

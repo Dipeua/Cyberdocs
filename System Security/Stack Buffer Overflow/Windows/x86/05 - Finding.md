@@ -35,8 +35,8 @@ for x in range(1, 256):
 
 sur le registrre ESP -> click droit -> follow in dump [dans Immunity debuger]
 
----
-# Finding the Right Module
+
+###0 Finding the Right Module
 - C'est rechercher une DLL ou quelque chose similaire a l'interieur d'un programme qui n'a pas de protection de memoire ce qui signifie pas de DAP, pas de profondeur ASLR.
 
 - Pour cela on vas utiliser un module appeler "mona.py" qui permet de voir la protection des proccess
