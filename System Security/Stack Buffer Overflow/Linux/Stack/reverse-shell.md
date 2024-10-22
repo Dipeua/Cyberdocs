@@ -1,4 +1,4 @@
-n**Take Controle of EIP**
+**Take Controle of EIP**
 
 Avec `gdb`, envoyer un nombre important de 'A' au programme jusqu'a obtenir une erreur soit (`SIGSEGV, Segementation fault`)
 

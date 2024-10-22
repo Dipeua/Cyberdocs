@@ -45,3 +45,7 @@ sublist3r
 jq
 wpscan
 html2text
+smtp-user-enum
+autorecon
+arp-scan
+steghide

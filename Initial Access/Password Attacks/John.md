@@ -14,7 +14,9 @@ Identifier les hachages:
 - https://hashes.com/en/tools/hash_identifier
 - `hashid HASH`
 - `hash-identifier HAS`
+
 ---
+
 Single Crack Mode (Mode de fissure unique)
 Le contenu du `hash.txt` doit etre de la forme suivante: `USER:HASH`
 
@@ -22,7 +24,6 @@ Le contenu du `hash.txt` doit etre de la forme suivante: `USER:HASH`
 john --single --format=[format] hash.txt
 ```
 
----
 # Custom Rules
 https://www.openwall.com/john/doc/RULES.shtml
 Pour cette  attaques, on supposent que l'attaquant connaît la politique de mot de passe.
