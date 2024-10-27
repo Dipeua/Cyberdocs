@@ -24,16 +24,19 @@ Escape character is '^]'.
 HELO telnet
 250 bento.localdomain
 
-MAIL FROM: 
+MAIL FROM: <send@gmail.com>
 250 2.1.0 Ok
 
-RCPT TO: 
+RCPT TO: <recipient@gmail.com>
 250 2.1.5 Ok
 
 DATA
 354 End data with .
 
+From: send@gmail.com
+To: recipient@gmail.com
 SUBJECT: Sending email with Telnet
+
 Hello Frank,
 I am just writing to say hi!             
 .

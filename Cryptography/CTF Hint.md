@@ -9,5 +9,5 @@ p, q, m, n, e, d, c
 
 - La clé publique est `« n et e »`, la clé privée est `« n et d »`.
 
-- `« m » `est utilisé pour représenter le message (en texte brut) et `« c »` représente le texte chiffré (texte crypté).
+- `« m » ` est utilisé pour représenter le message (en texte brut) et `« c »` représente le texte chiffré (texte crypté).
 
