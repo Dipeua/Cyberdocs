@@ -1,4 +1,4 @@
-# Les conditions
+**Les conditions**
 
 ```sh
 if [[ condition ]]; 
@@ -13,7 +13,7 @@ else
 fi
 ```
 
-# Les boucles
+**Les boucles**
 
 ```sh
 for (( i = 0; i < 10; i++ )); do
@@ -34,7 +34,7 @@ while [[ condition ]]; do
 done
 ```
 
-# Les fonctions
+**Les fonctions**
 
 ```sh
 function_name (){
