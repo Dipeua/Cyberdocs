@@ -1,4 +1,5 @@
-Se fait sans exécuter le programme, qu'allons-nous identifier dans cette salle basique ?
+Se fait sans exécuter le programme, qu'allons-nous identifier ?
+
 - Utilisation faible ou inappropriée de la cryptographie
 - Activités de préférence exportées
 - Applications qui permettent les sauvegardes

@@ -1,8 +1,7 @@
 Se produisent lorsque le code exécuté sur la cible est utilisé pour démarrer un écouteur attaché à un shell directement sur la cible.
 
-**Cela présente l'avantage de ne nécessiter aucune configuration sur votre propre réseau, mais peut être empêché par des pare-feu protégeant la cible.**
+> Cela présente l'avantage de ne nécessiter aucune configuration sur votre propre réseau, mais peut être empêché par des pare-feu protégeant la cible.
 
----
 # socat
 #linux #windows 
 

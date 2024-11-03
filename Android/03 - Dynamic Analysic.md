@@ -25,45 +25,44 @@ adb shell "reboot"
 - PID Cat
 Outil pour afficher les entrées de journal pour un package d'application spécifique lorsque `debug=true` est activé dans l'application.
 
-- [[Drozer]]
+- [Drozer](./hints/Drozer.md)
 C'est un cadre complet d’audit de sécurité et d’attaque pour Android.
 La condition préalable est que vous ayez installé Drozer sur votre ordinateur et l'agent Drozer sur votre émulateur ou vos appareils.
 
 Connecter:
 
-```c
+```sh
 adb forward tcp:31415 tcp:31415
 drozer console connect
 ```
 
 Récupération des informations sur le package :
 
-```c
-run app.package.list -> see all the packages installed
+```sh
+# see all the packages installed
+run app.package.list
 ```
 
-```c
-run app.package.info -a -> view package information.
+```sh
+# view package information
+run app.package.info -a
 ```
-
 
 Identifier la surface d'attaque -> activités non protégées et plus encore....
 
-```c
+```sh
 run app.package.attacksurface package_name
 ```
 
-
 Voir quelles activités peuvent être exploitées.
 
-```c
+```sh
 run app.activity.info -f package_name
 ```
 
-
 commencer  des activités sans protection  ! 
 
-```c
+```sh
 run app.activity.start --component package name component_name
 ```
 
