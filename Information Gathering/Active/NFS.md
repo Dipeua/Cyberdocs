@@ -1,4 +1,4 @@
-NFS (Network File System) écoute par défaut sur le port `2049` fonctionne avec [[PortMapper (rpcbind)]]
+NFS (Network File System) écoute par défaut sur le port `2049` fonctionne avec [PortMapper (rpcbind)](./PortMapper%20(rpcbind).md)
 
 
 ```sh

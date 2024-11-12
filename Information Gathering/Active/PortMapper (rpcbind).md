@@ -1,4 +1,4 @@
-Tourne sur le port TCP/UDP 111 et 32771 utiliser avec [[Information Gathering/Active/NFS|NFS]]
+Tourne sur le port TCP/UDP 111 et 32771 utiliser avec [NFS](./NFS.md)
 Utiliser pour mapper tout les `Open Network Computing Remote Prodecure Call`
 
 Permet de voir quel port sont port ouvert localement sur le systeme (localhost)
