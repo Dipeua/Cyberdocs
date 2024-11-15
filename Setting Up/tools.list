@@ -55,3 +55,7 @@ adb
 jadx
 apktool
 dex2jar
+dirb
+dnsrecon
+dnsenum
+mitmproxy
