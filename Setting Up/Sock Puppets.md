@@ -2,5 +2,4 @@ Guides sur Internet pour créer votre propre marionnette à chaussettes et les m
 
 - https://www.secjuice.com/the-art-of-the-sock-osint-humint/
 
-- Création d'une marionnette à chaussettes efficace pour les enquêtes de l'OSINT - https://web.archive.org/web/20210125191016/https://jakecreps.com/2018/11/02/sock-puppets/
-
+- [Création d'une marionnette à chaussettes efficace pour les enquêtes de l'OSINT](https://web.archive.org/web/20210125191016/https://jakecreps.com/2018/11/02/sock-puppets/)

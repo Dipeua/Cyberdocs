@@ -12,11 +12,15 @@ Les etapes a suivre pour etre anonyme lors de nos recherche sur internet:
 
 Installer des extensions qui bloquent ou réduire la quantité d'informations que les sites Web obtiennent à votre sujet:
 
-- User Agent Switcher and Manager
-- No script
-- Privacy Badger
-- Unlock Origin
-- Automatic deletion of cookies
+- `User Agent Switcher and Manager` : Usurpe la chaîne `User Agent` de votre navigateur en une désignation personnalisée.
+
+- `No script` : Autorise l'exécution de JavaScript, Java, Flash et d'autres plugins uniquement par des sites Web fiables de votre choix
+
+- `Privacy Badger` : Empêche les annonceurs et autres outils de suivi tiers de suivre secrètement où vous allez et quelles pages vous consultez sur le Web
+
+- `Unlock Origin` : Filtre les demandes d'affichage de publicités et empêche votre navigateur de récupérer et d'afficher du contenu marketing.
+
+- `Automatic deletion of cookies` : Supprimez automatiquement les cookies indésirables de vos onglets fermés tout en conservant ceux que vous souhaitez.
 
 **Sock Puppets :**
 

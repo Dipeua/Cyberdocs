@@ -18,12 +18,19 @@ cewl -d 5 -m <length> -w output.txt https://target-website.com
 ```
 
 **Générateur de nom d'utilisateur**
+
 Il est essentiel de recueillir les noms des employés au stade du dénombrement.
 Pour créer une liste avec la plupart des combinaisons possibles a base du prénom et du nom.
 
 ```sh
 echo "John Smith" > users.lst
 python3 username_generator.py -w users.lst
+```
+
+```sh
+git clone https://github.com/urbanadventurer/username-anarchy.git
+cd username-anarchy
+./username-anarchy Bill Gates > bill.txt
 ```
 
 ## Password Profiling 
