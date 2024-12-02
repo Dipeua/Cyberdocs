@@ -1,4 +1,4 @@
-Set up the AWS CLI installation?
+Set up the AWS CLI installation
 
 ```sh
 aws configure

@@ -1,4 +1,4 @@
-Dans cette partie, nous allons extraire l'apk légitime de l'émulateur ou de l'appareil et obtenir le code source.
+> Extraire l'apk de l'appareil et obtenir le code source.
 
 ## Initialisation
 

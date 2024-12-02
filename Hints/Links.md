@@ -1,9 +1,6 @@
 Make DNS Rebinding:
 - https://lock.cmpxchg8b/rebinder.html
 
-Enable DNS Server same to (burp-collaborator):
-- https://github.com/projectdiscovery/interactsh 
-
 Find Subdomain:
 - [crt.sh](https://crt.sh)
 - [ui.ctsearch.entrust.com](https://ui.ctsearch.entrust.com/ui/ctsearchui)
@@ -12,8 +9,8 @@ Send Anonymous Email
 - https://anonymousemail.me
 
 Recherche d'elevation de privilege:
-- GTFBins: https://gtfobins.github.io
-- LOLBAS: https://lolbas-project.github.io/
+- [GTFBins](https://gtfobins.github.io)
+- [LOLBAS](https://lolbas-project.github.io/)
 
 Obscurcissement du Web 
 - https://www.gaijin.at/en/tools/php-obfuscator
