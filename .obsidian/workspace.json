@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a11c17aadd656b28",
+        "id": "a3a8ace2aac0d1c0",
         "type": "tabs",
         "children": [
           {
-            "id": "4170fdeb77a4d2d5",
+            "id": "efdb7eb3dbee26a6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Cloud/AWS/README.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nouvel onglet"
+              "title": "README"
             }
           }
         ]
@@ -155,8 +159,27 @@
       "command-palette:Ouvrir la palette de commandes": false
     }
   },
-  "active": "4170fdeb77a4d2d5",
+  "active": "efdb7eb3dbee26a6",
   "lastOpenFiles": [
+    "Setting Up/Anonymization.md",
+    "Setting Up/Container.md",
+    "Setting Up/Links.md",
+    "Setting Up/README.md",
+    "Setting Up/Sock Puppets.md",
+    "Setting Up/tools-go.md",
+    "Setting Up/tools-pip.md",
+    "Setting Up/tools-to-search.md",
+    "Cloud/AWS/README.md",
+    "Cryptography/CTF Hint.md",
+    "Digital Forensics/Steganography.md",
+    "Digital Forensics/Fundamentals/README.md",
+    "Web Exploitation/CORS/README.md",
+    "Web Exploitation/Broken Access control/IDOR.md",
+    "Web Exploitation/Broken Access control/README.md",
+    "Web Exploitation/CORS/PoC/index.html",
+    "Web Exploitation/CORS/PoC/cors.html",
+    "Web Exploitation/CORS/PoC/autoload.html",
+    "Web Exploitation/CORS/PoC",
     "Web Exploitation/NoSQLi/SSJI.md",
     "Web Exploitation/NoSQLi/Tools of the Trade.md",
     "Web Exploitation/NoSQLi/Syntax injection.md",

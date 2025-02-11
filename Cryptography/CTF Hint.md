@@ -1,4 +1,3 @@
-# CTF Hint
 Les variables clés que vous devez connaître pour le RSA dans les CTF sont : `p, q, m, n, e, d, c`
 
 - `p et q` sont des grands nombres premiers, `n` est le produit de `p et q`.
