@@ -1,0 +1,171 @@
+{
+  "main": {
+    "id": "9805d6e218b3b4f6",
+    "type": "split",
+    "children": [
+      {
+        "id": "a11c17aadd656b28",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4170fdeb77a4d2d5",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nouvel onglet"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "901f6e98ad4ec717",
+    "type": "split",
+    "children": [
+      {
+        "id": "59db0b3b0b413082",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a47676ec96aaa6f5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorateur de fichiers"
+            }
+          },
+          {
+            "id": "e154172fac515ca5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Rechercher"
+            }
+          },
+          {
+            "id": "af6cb98ffec37485",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Signet"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "983d0652be6736b2",
+    "type": "split",
+    "children": [
+      {
+        "id": "87009469ee7d0e71",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0a38ec45bac86298",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Rétroliens"
+            }
+          },
+          {
+            "id": "5901a8269b00e558",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Liens sortants"
+            }
+          },
+          {
+            "id": "6ffbd868519e86da",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Mots-clés"
+            }
+          },
+          {
+            "id": "c541a0cacd183ad0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Plan"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "canvas:Créer une nouvelle toile": false,
+      "daily-notes:Ouvrir la note quotidienne": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false
+    }
+  },
+  "active": "4170fdeb77a4d2d5",
+  "lastOpenFiles": [
+    "Web Exploitation/NoSQLi/SSJI.md",
+    "Web Exploitation/NoSQLi/Tools of the Trade.md",
+    "Web Exploitation/NoSQLi/Syntax injection.md",
+    "Web Exploitation/NoSQLi/README.md",
+    "Web Exploitation/NoSQLi/Operator injection.md",
+    "Web Exploitation/NoSQLi/In-Band Data Extraction.md",
+    "Web Exploitation/NoSQLi/Bypassing Authentication.md",
+    "Web Exploitation/Broken Authentication/Brute force.md",
+    "Web Exploitation/Broken Authentication/Logic Flaw.md",
+    "Web Exploitation/Broken Authentication/README.md"
+  ]
+}
