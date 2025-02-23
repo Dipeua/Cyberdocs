@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "14d303b051cc6d34",
+        "id": "f5d7cb7483e32677",
         "type": "tabs",
         "children": [
           {
-            "id": "e5fd32e0f67e5a40",
+            "id": "e0078e169a988fc8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web Exploitation/SQLi/Error-Based.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Error-Based"
+              "title": "Nouvel onglet"
             }
           }
         ]
@@ -159,34 +155,34 @@
       "command-palette:Ouvrir la palette de commandes": false
     }
   },
-  "active": "e5fd32e0f67e5a40",
+  "active": "e0078e169a988fc8",
   "lastOpenFiles": [
-    "Web Exploitation/SQLi/Payloads.md",
-    "Web Exploitation/SQLi/README.md",
-    "Web Exploitation/SQLi/Error-Based.md",
-    "Web Exploitation/SQLi/Blind.md",
-    "Web Exploitation/SQLi/In-Band.md",
-    "Web Exploitation/SQLi/SQLMap.md",
-    "Web Exploitation/CSRF/README.md",
-    "Post Exploitation/Pivoting/HTTPTunneling.md",
-    "Post Exploitation/Pivoting/README.md",
-    "Post Exploitation/Pivoting/Netsh.md",
-    "Post Exploitation/Pivoting/Plink.exe.md",
+    "Shell/Reverse shell.md",
+    "Shell/README.md",
+    "Shell/Bind shell.md",
+    "Shell/TTY.md",
     "Post Exploitation/Pivoting/NEW CONTENT.md",
-    "Post Exploitation/Pivoting/RINETD.md",
-    "Post Exploitation/Pivoting/Meterpreter.md",
-    "Post Exploitation/Pivoting/Enumeration.md",
-    "Post Exploitation/Pivoting/SSHUttle.md",
-    "Post Exploitation/Pivoting/SSH.md",
-    "Web Exploitation/CORS/README.md",
-    "Web Exploitation/CORS/Same-origin policy.md",
-    "Cloud/AWS/README.md",
-    "Setting Up/Anonymization.md",
-    "Setting Up/Container.md",
-    "Setting Up/Links.md",
-    "Setting Up/README.md",
-    "Setting Up/Sock Puppets.md",
-    "Setting Up/tools-go.md",
+    "Post Exploitation/Persistence/Linux/Root/Xinetd UDP Portknock Backdoor.md",
+    "Post Exploitation/Persistence/Linux/Root/Systemd Netcat Bind Shell.md",
+    "Post Exploitation/Persistence/Windows/User/COM Hijacking - Proxying.md",
+    "Post Exploitation/Persistence/Windows/User/DLL Hijacking - Proxying.md",
+    "Post Exploitation/Persistence/Windows/User/Logon Scripts.md",
+    "Post Exploitation/Persistence/Windows/User/Meterpreter.md",
+    "Post Exploitation/Persistence/Windows/User/PowerShell Profile.md",
+    "Post Exploitation/Persistence/Windows/User/Screensavers.md",
+    "Post Exploitation/Persistence/Windows/User/Shortcut Mods.md",
+    "Post Exploitation/Persistence/Windows/User/StartUp Folder and Registry Keys.md",
+    "Post Exploitation/Lateral Movement/README.md",
+    "Post Exploitation/Lateral Movement/Dumping Browsers Credentails.md",
+    "Post Exploitation/Lateral Movement/MITM/Bettercap.md",
+    "Post Exploitation/Lateral Movement/MITM/README.md",
+    "Post Exploitation/File Transfers/Windows.md",
+    "Post Exploitation/File Transfers/OSCP.md",
+    "Post Exploitation/File Transfers/Linux.md",
+    "Post Exploitation/Evasions/README.md",
+    "Post Exploitation/Evasions/Host Security.md",
+    "Post Exploitation/Evasions/AV/README.md",
+    "Post Exploitation/Evasions/AV/OSCP.md",
     "Web Exploitation/CORS/PoC/index.html",
     "Web Exploitation/CORS/PoC/cors.html",
     "Web Exploitation/CORS/PoC/autoload.html",
