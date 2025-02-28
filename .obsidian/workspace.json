@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f5d7cb7483e32677",
+        "id": "6e89b9d35c93b0f1",
         "type": "tabs",
         "children": [
           {
-            "id": "e0078e169a988fc8",
+            "id": "44a46af59a9e8ef1",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -155,8 +155,16 @@
       "command-palette:Ouvrir la palette de commandes": false
     }
   },
-  "active": "e0078e169a988fc8",
+  "active": "a47676ec96aaa6f5",
   "lastOpenFiles": [
+    "Initial Access/Phishing/Evilginx/README.md",
+    "Initial Access/Phishing/Outlook.md",
+    "Web Exploitation/OSi/README.md",
+    "Web Exploitation/LFI-RFI/LFI.md",
+    "Web Exploitation/LFI-RFI/RFI.md",
+    "Web Exploitation/LFI-RFI/README.md",
+    "Web Exploitation/File Upload/README.md",
+    "Post Exploitation/Pivoting/HTTPTunneling.md",
     "Shell/Reverse shell.md",
     "Shell/README.md",
     "Shell/Bind shell.md",
@@ -175,14 +183,6 @@
     "Post Exploitation/Lateral Movement/README.md",
     "Post Exploitation/Lateral Movement/Dumping Browsers Credentails.md",
     "Post Exploitation/Lateral Movement/MITM/Bettercap.md",
-    "Post Exploitation/Lateral Movement/MITM/README.md",
-    "Post Exploitation/File Transfers/Windows.md",
-    "Post Exploitation/File Transfers/OSCP.md",
-    "Post Exploitation/File Transfers/Linux.md",
-    "Post Exploitation/Evasions/README.md",
-    "Post Exploitation/Evasions/Host Security.md",
-    "Post Exploitation/Evasions/AV/README.md",
-    "Post Exploitation/Evasions/AV/OSCP.md",
     "Web Exploitation/CORS/PoC/index.html",
     "Web Exploitation/CORS/PoC/cors.html",
     "Web Exploitation/CORS/PoC/autoload.html",
