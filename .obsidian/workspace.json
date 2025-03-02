@@ -1,20 +1,20 @@
 {
   "main": {
-    "id": "9805d6e218b3b4f6",
+    "id": "96d841b8d230ce79",
     "type": "split",
     "children": [
       {
-        "id": "6e89b9d35c93b0f1",
+        "id": "744d13a4023731e0",
         "type": "tabs",
         "children": [
           {
-            "id": "44a46af59a9e8ef1",
+            "id": "51632d66e85badde",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Nouvel onglet"
+              "title": "New tab"
             }
           }
         ]
@@ -23,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "901f6e98ad4ec717",
+    "id": "f18721293efd276f",
     "type": "split",
     "children": [
       {
-        "id": "59db0b3b0b413082",
+        "id": "7e93126f13091e50",
         "type": "tabs",
         "children": [
           {
-            "id": "a47676ec96aaa6f5",
+            "id": "db53db4a26fcddaa",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -40,11 +40,11 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorateur de fichiers"
+              "title": "Files"
             }
           },
           {
-            "id": "e154172fac515ca5",
+            "id": "b82ff6fffe78b9fb",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -57,17 +57,17 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Rechercher"
+              "title": "Search"
             }
           },
           {
-            "id": "af6cb98ffec37485",
+            "id": "fb8e4ecd4f8b12b5",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Signet"
+              "title": "Bookmarks"
             }
           }
         ]
@@ -77,15 +77,15 @@
     "width": 300
   },
   "right": {
-    "id": "983d0652be6736b2",
+    "id": "0933cf9a64bec0e0",
     "type": "split",
     "children": [
       {
-        "id": "87009469ee7d0e71",
+        "id": "3977edcecf3a958b",
         "type": "tabs",
         "children": [
           {
-            "id": "0a38ec45bac86298",
+            "id": "c98baa11f7980efc",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -99,11 +99,11 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétroliens"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "5901a8269b00e558",
+            "id": "a09c0ea6c862f6c5",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -112,30 +112,36 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "6ffbd868519e86da",
+            "id": "5bfac0e144ddf7b9",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Mots-clés"
+              "title": "Tags"
             }
           },
           {
-            "id": "c541a0cacd183ad0",
+            "id": "a27f4b6598097b97",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-list",
-              "title": "Plan"
+              "title": "Outline"
             }
           }
         ]
@@ -147,45 +153,16 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Ouvrir le sélecteur rapide": false,
-      "graph:Ouvrir la vue graphique": false,
-      "canvas:Créer une nouvelle toile": false,
-      "daily-notes:Ouvrir la note quotidienne": false,
-      "templates:Insérer le modèle": false,
-      "command-palette:Ouvrir la palette de commandes": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
-  "active": "a47676ec96aaa6f5",
+  "active": "db53db4a26fcddaa",
   "lastOpenFiles": [
-    "Initial Access/Phishing/Evilginx/README.md",
-    "Initial Access/Phishing/Outlook.md",
-    "Web Exploitation/OSi/README.md",
-    "Web Exploitation/LFI-RFI/LFI.md",
-    "Web Exploitation/LFI-RFI/RFI.md",
-    "Web Exploitation/LFI-RFI/README.md",
-    "Web Exploitation/File Upload/README.md",
-    "Post Exploitation/Pivoting/HTTPTunneling.md",
-    "Shell/Reverse shell.md",
-    "Shell/README.md",
-    "Shell/Bind shell.md",
-    "Shell/TTY.md",
-    "Post Exploitation/Pivoting/NEW CONTENT.md",
-    "Post Exploitation/Persistence/Linux/Root/Xinetd UDP Portknock Backdoor.md",
-    "Post Exploitation/Persistence/Linux/Root/Systemd Netcat Bind Shell.md",
-    "Post Exploitation/Persistence/Windows/User/COM Hijacking - Proxying.md",
-    "Post Exploitation/Persistence/Windows/User/DLL Hijacking - Proxying.md",
-    "Post Exploitation/Persistence/Windows/User/Logon Scripts.md",
-    "Post Exploitation/Persistence/Windows/User/Meterpreter.md",
-    "Post Exploitation/Persistence/Windows/User/PowerShell Profile.md",
-    "Post Exploitation/Persistence/Windows/User/Screensavers.md",
-    "Post Exploitation/Persistence/Windows/User/Shortcut Mods.md",
-    "Post Exploitation/Persistence/Windows/User/StartUp Folder and Registry Keys.md",
-    "Post Exploitation/Lateral Movement/README.md",
-    "Post Exploitation/Lateral Movement/Dumping Browsers Credentails.md",
-    "Post Exploitation/Lateral Movement/MITM/Bettercap.md",
-    "Web Exploitation/CORS/PoC/index.html",
-    "Web Exploitation/CORS/PoC/cors.html",
-    "Web Exploitation/CORS/PoC/autoload.html",
-    "Web Exploitation/CORS/PoC"
+    "Web Exploitation/JWT/README.md"
   ]
 }
