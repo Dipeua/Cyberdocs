@@ -1,6 +1,0 @@
-**Casser une cle GPG**
-
-```sh
-gpg --import key.asc keyfile.key
-gpg --decrypt key.pgp messagefile.gpg
-```
