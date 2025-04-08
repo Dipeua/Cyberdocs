@@ -33,6 +33,7 @@ Bruteforcing SNMP service OIDs.
 
 ```c
 braa <community string>@<FQDN/IP>:.1.*
+braa <community string>@<FQDN/IP>:.1.3.6.*
 ```
 
 Afficher les programmes installer ou disponible sur la machine
