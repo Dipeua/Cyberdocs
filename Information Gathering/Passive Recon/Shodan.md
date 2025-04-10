@@ -1,7 +1,5 @@
 # Shodan
 
-https://pen-testing.sans.org/blog/2015/12/08/effective-shodan-searches
-
 Servers exposed to the internet belonging to some domain
 
 ```sh
@@ -27,3 +25,6 @@ Hosts in a specific network range can be found
 ```sh
 net:192.168.1.1/24
 ```
+
+
+https://sankalppatil12112001.medium.com/shodan-for-pentesting-the-ultimate-detailed-guide-part-1-8b618e40acd5
