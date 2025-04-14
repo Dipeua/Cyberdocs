@@ -6,6 +6,8 @@ Récupérer du butin a distance
 
 ```sh
 bloodhound-python -c All -u Administrator -p 'Password' -d CONTROLLER.local -ns 10.10.x.x
+
+bloodhound-python -c All -u michael -p 'NewPassword123' -dc administrator.htb -d administrator.htb -ns 10.10.11.42
 ```
 
 **SharpHound**
