@@ -26,3 +26,9 @@ masscan
 ```sh
 sudo masscan -p80 192.168.45.0/24 --rate=10000 -e eth0 --router-ip 192.168.45.1
 ```
+
+Identifier tous les hôtes actifs de notre plage réseau cible
+
+```sh
+fping -agq CIDR
+```

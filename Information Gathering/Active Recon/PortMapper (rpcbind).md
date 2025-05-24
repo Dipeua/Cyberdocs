@@ -20,3 +20,10 @@ Interaction with the target using RPC.
 rpcclient -U "" <FQDN/IP>
 ```
 
+**RID Cycling**
+
+Interroger manuellement chaque RID utilisateur individuel
+
+```sh
+for i in $(seq 500 2000); do echo "queryuser $i" |rpcclient -U "" -N 10.211.11.10 2>/dev/null | grep -i "User Name"; done
+```
