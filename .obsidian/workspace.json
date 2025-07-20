@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e607330fd8d20ac3",
+        "id": "55a1af975a0cb3ea",
         "type": "tabs",
         "children": [
           {
-            "id": "8555978440bda836",
+            "id": "b9619f58717f3e68",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "System Security/Linux Binary Exploitation/README.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nouvel onglet"
+              "title": "README"
             }
           }
         ]
@@ -161,8 +165,22 @@
       "command-palette:Ouvrir la palette de commandes": false
     }
   },
-  "active": "8555978440bda836",
+  "active": "b9619f58717f3e68",
   "lastOpenFiles": [
+    "System Security/Linux Binary Exploitation/Stack/Shell Code.md",
+    "System Security/Linux Binary Exploitation/README.md",
+    "Initial Access/Phishing/Outlook.md",
+    "Information Gathering/Passive Recon/WHOIS and DNS.md",
+    "Information Gathering/Passive Recon/Shodan.md",
+    "Information Gathering/Passive Recon/Recon-ng.md",
+    "Information Gathering/Passive Recon/OSINT.md",
+    "Information Gathering/Passive Recon/Online Ressouces.md",
+    "Information Gathering/Passive Recon/Google Hacking Dorking.md",
+    "Information Gathering/README.md",
+    "Information Gathering/Active Recon/DNS.md",
+    "Web Exploitation/Broken Access control/IDOR.md",
+    "Web Exploitation/Broken Access control/README.md",
+    "Bug Bounty Hunting/Find Bugs in Hidden React Source Code.md",
     "Web Exploitation/CORS/CORS and the Access-Control-Allow-Origin response header.md"
   ]
 }
