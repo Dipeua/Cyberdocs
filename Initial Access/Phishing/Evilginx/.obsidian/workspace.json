@@ -1,0 +1,188 @@
+{
+  "main": {
+    "id": "2f9fa8a753173cc5",
+    "type": "split",
+    "children": [
+      {
+        "id": "7b5a40a764db998e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d1d56e486622ff75",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6. Forcing POST Parameters.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "6. Forcing POST Parameters"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c3ee6d970a40261b",
+    "type": "split",
+    "children": [
+      {
+        "id": "3d75ffb3fdfa2942",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a6051fb9233d8e27",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorateur de fichiers"
+            }
+          },
+          {
+            "id": "fc9de80e0ee8bfe1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Rechercher"
+            }
+          },
+          {
+            "id": "a3186fc575ade3b8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Signet"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "8e4623bbee98bc02",
+    "type": "split",
+    "children": [
+      {
+        "id": "f3bfd2e5e17ec6eb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "73e43f105d6b5959",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "5. Replacing Content.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Rétrolien pour 5. Replacing Content"
+            }
+          },
+          {
+            "id": "c978a9d50f6b194c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "5. Replacing Content.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Liens sortants de 5. Replacing Content"
+            }
+          },
+          {
+            "id": "7fdfc1c7c2398359",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Mots-clés"
+            }
+          },
+          {
+            "id": "bb8ab3dace284bbf",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "5. Replacing Content.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Plan de 5. Replacing Content"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "canvas:Créer une nouvelle toile": false,
+      "daily-notes:Ouvrir la note quotidienne": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false
+    }
+  },
+  "active": "a6051fb9233d8e27",
+  "lastOpenFiles": [
+    "6. Forcing POST Parameters.md",
+    "7. Handling JSON & LocalStorage.md",
+    "3. Catching Phish.md",
+    "4. Personalizing Lures.md",
+    "5. Replacing Content.md",
+    "2.  Creating a Phishlet.md",
+    "1. Setup Evilginx2.md",
+    "0. Evilginx Mastery.md",
+    "Images/Pasted image 20250626123904.png",
+    "Images/Pasted image 20250626123015.png",
+    "Images/Pasted image 20250626122557.png",
+    "Images/Pasted image 20250626120652.png",
+    "Images/Pasted image 20250626101654.png",
+    "Pasted image 20250626122905.png"
+  ]
+}
