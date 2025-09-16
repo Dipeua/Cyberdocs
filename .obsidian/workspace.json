@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0b13a33eaa71f456",
+        "id": "c59e83a2d40b59dd",
         "type": "tabs",
         "children": [
           {
-            "id": "1d8e2a55a251e62a",
+            "id": "25b8fab6f0f02367",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Web Exploitation/XSS/Exploiting XSS.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Exploiting XSS"
             }
           }
         ]
@@ -165,19 +169,22 @@
       "bases:Create new base": false
     }
   },
-  "active": "1d8e2a55a251e62a",
+  "active": "25b8fab6f0f02367",
   "lastOpenFiles": [
     "Web Exploitation/XSS/Payloads JS.md",
+    "Web Exploitation/XSS/Exploiting XSS.md",
+    "Web Exploitation/XSS/Contextes XSS.md",
+    "Web Exploitation/CSRF/README.md",
+    "Web Exploitation/XSS/Payloads PHP.md",
     "Web Exploitation/XSS/Other XSS Payload.md",
-    "Web Exploitation/XSS/XSS DOM Based.md",
     "Web Exploitation/XSS/Blind XSS.md",
+    "Web Exploitation/XSS/XSS Stored.md",
+    "Web Exploitation/XSS/XSS Reflected.md",
+    "Web Exploitation/XSS/XSS DOM Based.md",
+    "Web Exploitation/XSS/README.md",
     "Web Exploitation/XSS/Automation.md",
     "Web Exploitation/XSS/DOM XSS.md",
-    "Web Exploitation/XSS/XSS Reflected.md",
-    "Web Exploitation/XSS/README.md",
-    "Web Exploitation/XSS/XSS Stored.md",
     "Web Exploitation/Burp extensions.md",
-    "Web Exploitation/XSS/Payloads PHP.md",
     "Web Exploitation/Untitled",
     "Web Exploitation/SQLi/README.md",
     "Web Exploitation/SQLi/Blind.md",
@@ -191,9 +198,6 @@
     "Web Exploitation/JS Deobfuscation.md",
     "Web Exploitation/Web Enumeration Tools/Ffuf.md",
     "Information Gathering/Passive Recon/Google Hacking Dorking.md",
-    "Web Exploitation/Web Enumeration Tools/Web Fuzzing.md",
-    "Initial Access/Phishing/Evilginx/3. Catching Phish.md",
-    "6. Forcing POST Parameters.md",
     "Images/Pasted image 20250626123904.png",
     "Images/Pasted image 20250626123015.png",
     "Images/Pasted image 20250626122557.png",
