@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c59e83a2d40b59dd",
+        "id": "0e3c89e7d7e6704f",
         "type": "tabs",
         "children": [
           {
-            "id": "25b8fab6f0f02367",
+            "id": "73e802f4c17bc896",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -169,11 +169,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "25b8fab6f0f02367",
+  "active": "73e802f4c17bc896",
   "lastOpenFiles": [
     "Web Exploitation/XSS/Payloads JS.md",
     "Web Exploitation/XSS/Exploiting XSS.md",
     "Web Exploitation/XSS/Contextes XSS.md",
+    "Web Exploitation/XSS/Content Security Policy (CSP).md",
+    "Web Exploitation/XSS/README.md",
     "Web Exploitation/CSRF/README.md",
     "Web Exploitation/XSS/Payloads PHP.md",
     "Web Exploitation/XSS/Other XSS Payload.md",
@@ -181,7 +183,6 @@
     "Web Exploitation/XSS/XSS Stored.md",
     "Web Exploitation/XSS/XSS Reflected.md",
     "Web Exploitation/XSS/XSS DOM Based.md",
-    "Web Exploitation/XSS/README.md",
     "Web Exploitation/XSS/Automation.md",
     "Web Exploitation/XSS/DOM XSS.md",
     "Web Exploitation/Burp extensions.md",
@@ -197,7 +198,6 @@
     "Web Exploitation/SQLi/SQLMap.md",
     "Web Exploitation/JS Deobfuscation.md",
     "Web Exploitation/Web Enumeration Tools/Ffuf.md",
-    "Information Gathering/Passive Recon/Google Hacking Dorking.md",
     "Images/Pasted image 20250626123904.png",
     "Images/Pasted image 20250626123015.png",
     "Images/Pasted image 20250626122557.png",
