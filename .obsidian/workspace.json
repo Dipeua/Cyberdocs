@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Exploitation/CSRF/README.md",
+                "file": "Web Exploitation/CSRF/CSRF Bypass techniques.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "CSRF Bypass techniques"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 209.5
+    "width": 240.5
   },
   "right": {
     "id": "8e4623bbee98bc02",
@@ -171,8 +171,8 @@
   },
   "active": "99d88e11d9040f28",
   "lastOpenFiles": [
-    "Web Exploitation/CSRF/OLD.md",
     "Web Exploitation/CSRF/README.md",
+    "Web Exploitation/CSRF/OLD.md",
     "Web Exploitation/CSRF/CSRF Bypass techniques.md",
     "Web Exploitation/CSRF/Defences CSRF.md",
     "Web Exploitation/CSRF/Construct and Delivering a CSRF attack.md",
