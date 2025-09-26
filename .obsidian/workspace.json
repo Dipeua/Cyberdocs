@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Exploitation/CSRF/CSRF Bypass techniques.md",
+                "file": "Web Exploitation/CSRF/Bypassing CSRF/Bypassing CSRF token validation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CSRF Bypass techniques"
+              "title": "Bypassing CSRF token validation"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5. Replacing Content.md",
+                "file": "Web Exploitation/CSRF/Bypassing CSRF/Bypassing CSRF token validation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétrolien pour 5. Replacing Content"
+              "title": "Rétrolien pour Bypassing CSRF token validation"
             }
           },
           {
@@ -171,9 +171,13 @@
   },
   "active": "99d88e11d9040f28",
   "lastOpenFiles": [
+    "Web Exploitation/CSRF/Bypassing CSRF/Sans titre.md",
+    "Web Exploitation/CSRF/Bypassing CSRF/Bypassing CSRF token validation.md",
+    "Web Exploitation/CSRF/Bypassing CSRF/Bypassing Referer-based CSRF defenses.md",
+    "Web Exploitation/CSRF/Bypassing CSRF/Bypassing SameSite cookie restrictions.md",
+    "Web Exploitation/CSRF/Bypassing CSRF",
     "Web Exploitation/CSRF/README.md",
     "Web Exploitation/CSRF/OLD.md",
-    "Web Exploitation/CSRF/CSRF Bypass techniques.md",
     "Web Exploitation/CSRF/Defences CSRF.md",
     "Web Exploitation/CSRF/Construct and Delivering a CSRF attack.md",
     "Web Exploitation/CSRF/XSS vs CSRF.md",
@@ -195,9 +199,6 @@
     "Web Exploitation/SQLi/README.md",
     "Web Exploitation/SQLi/Blind.md",
     "Sans titre 1.md",
-    "Sans titre.md",
-    "Web Exploitation/SQLi/In-Band.md",
-    "Web Exploitation/SQLi/Out-of-band.md",
     "Images/Pasted image 20250626123904.png",
     "Images/Pasted image 20250626123015.png",
     "Images/Pasted image 20250626122557.png",

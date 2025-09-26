@@ -75,3 +75,4 @@ chaos-client -d target.com -silent | grep api | alterx -silent | dnsx -silent | 
 urlfinder -d target.com
 ```
 
+w
