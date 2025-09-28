@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Exploitation/CSRF/Bypassing CSRF/Bypassing SameSite cookie restrictions.md",
+                "file": "Web Exploitation/CSRF/Bypassing CSRF/Bypassing CSRF token validation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bypassing SameSite cookie restrictions"
+              "title": "Bypassing CSRF token validation"
             }
           },
           {
@@ -185,8 +185,8 @@
   },
   "active": "98acaa7aa5efbf3c",
   "lastOpenFiles": [
-    "Web Exploitation/CSRF/SameSite.md",
     "Web Exploitation/CSRF/Bypassing CSRF/Bypassing SameSite cookie restrictions.md",
+    "Web Exploitation/CSRF/SameSite.md",
     "Web Exploitation/CSRF/Bypassing CSRF/Bypassing Referer-based CSRF defenses.md",
     "Web Exploitation/CSRF/Bypassing CSRF/Bypassing CSRF token validation.md",
     "IA/TTP.md",
