@@ -11,10 +11,14 @@
             "id": "c11fc444ff1d657b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Web Exploitation/LFI-RFI/LFI.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nouvel onglet"
+              "title": "LFI"
             }
           }
         ]
@@ -40,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorateur de fichiers"
+              "title": "Files"
             }
           },
           {
@@ -156,17 +160,24 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Ouvrir le sélecteur rapide": false,
-      "graph:Ouvrir la vue graphique": false,
-      "canvas:Créer une nouvelle toile": false,
-      "daily-notes:Ouvrir la note quotidienne": false,
-      "templates:Insérer le modèle": false,
-      "command-palette:Ouvrir la palette de commandes": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "bases:Create new base": false
     }
   },
   "active": "c11fc444ff1d657b",
   "lastOpenFiles": [
+    "Web Exploitation/LFI-RFI/README.md",
+    "Web Exploitation/LFI-RFI/RFI.md",
+    "Post Exploitation/Pivoting/Enumeration.md",
+    "Web Exploitation/WordPress/Exploitation.md",
+    "Information Gathering/Active Recon/FTP.md",
+    "Information Gathering/Nmap.md",
+    "Initial Access/Password Attacks/README.md",
     "Web Exploitation/CSRF/SameSite.md",
     "Web Exploitation/CSRF/Bypassing CSRF/Bypassing Referer-based CSRF defenses.md",
     "Web Exploitation/CSRF/Bypassing CSRF/Bypassing SameSite cookie restrictions.md",
@@ -188,13 +199,6 @@
     "Web Exploitation/XSS/Content Security Policy (CSP).md",
     "Web Exploitation/XSS/README.md",
     "Web Exploitation/XSS/Payloads PHP.md",
-    "Web Exploitation/XSS/Other XSS Payload.md",
-    "Web Exploitation/XSS/Blind XSS.md",
-    "Web Exploitation/XSS/XSS Stored.md",
-    "Web Exploitation/XSS/XSS Reflected.md",
-    "Web Exploitation/XSS/Automation.md",
-    "Web Exploitation/XSS/DOM XSS.md",
-    "Web Exploitation/Burp extensions.md",
     "Web Exploitation/Untitled",
     "Images/Pasted image 20250626123904.png",
     "Images/Pasted image 20250626123015.png",
