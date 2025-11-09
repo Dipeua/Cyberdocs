@@ -1,18 +1,9 @@
 # WHOIS and DNS 
 
-Assign target to an environment variable.
-
-```sh
-export TARGET="domain.tld"
-export PORT=443
-```
-
-## DNS Enumeration
-
 WHOIS lookup for the target.
 
 ```sh
-whois $TARGET
+whois example.com
 ```
 
 Reverse Lookup Brute Force
@@ -24,20 +15,20 @@ for ip in $(seq 50 100); do host X.X.X.$ip; done | grep -v "not found"
 Identify the ANY record for the target IP address.
 
 ```sh
-nslookup -query=ANY $TARGET
+nslookup -query=ANY example.com
 nslookup -query=PTR <IP>
 ```
 
 Identify the record for the target IP address and [DNS Zone Transfert](../../Programming/dns-axfr.sh)
 
 ```sh
-dig $TARGET @<nameserver>
-dig any $TARGET @<nameserver>
+dig example.com @<nameserver>
+dig any example.com @<nameserver>
 dig -x <IP> @<nameserver/IP>
 
 # AXFR request to the specific nameserver. 
-dig axfr $TARGET @<nameserver>
-dig axfr $TARGET @NSZTM1.DIGI.NINJA | cut -d " " -f3
+dig axfr example.com @<nameserver>
+dig axfr example.com @NSZTM1.DIGI.NINJA | cut -d " " -f3
 ```
 
 ## Passive Subdomain Enumeration
@@ -50,13 +41,13 @@ est un projet de recherche en sécurité qui mène des enquêtes sur Internet au
 
 ```sh 
 # Tous les sous-domaines pour un domaine donné.
-curl -s https://sonar.omnisint.io/subdomains/$TARGET | jq -r '.[]' | sort -u 
+curl -s https://sonar.omnisint.io/subdomains/example.com | jq -r '.[]' | sort -u 
     
 # Tous les TLD trouvés pour un domaine donné.
-curl -s https://sonar.omnisint.io/tlds/$TARGET | jq -r '.[]' | sort -u      
+curl -s https://sonar.omnisint.io/tlds/example.com | jq -r '.[]' | sort -u      
 
 # Tous les résultats sur tous les TLD pour un domaine donné.
-curl -s https://sonar.omnisint.io/all/$TARGET | jq -r '.[]' | sort -u       
+curl -s https://sonar.omnisint.io/all/example.com | jq -r '.[]' | sort -u       
 
 # Reverse DNS lookup on IP address
 curl -s https://sonar.omnisint.io/reverse/{ip}        

@@ -1,5 +1,3 @@
-# Find Bugs in Hidden React Source Code
-
 1. Use `Wappalyzer` to identify an application that's using react.
 
 2. Open des Devs tools and navigate to whatever tal loads the client side javascript files (Sources)
