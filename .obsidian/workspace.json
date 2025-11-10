@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "1c875f9a03b9c85b",
+        "id": "3c1acdf62ce5c95b",
         "type": "tabs",
         "children": [
           {
-            "id": "ed3e9df9abb636eb",
+            "id": "fd6c169e252fe439",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bug Bounty Hunting/Reconnaissance.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Reconnaissance"
+              "title": "New tab"
             }
           }
         ]
@@ -169,8 +165,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "ed3e9df9abb636eb",
+  "active": "a6051fb9233d8e27",
   "lastOpenFiles": [
+    "Active Directory/Post Exploitation/Persistence/Skeleton Key.md",
+    "Active Directory/Ressources.md",
+    "Active Directory/Attacking CS/CVE-2022-26923.md",
+    "IA/TTP.md",
+    "Information Gathering/README.md",
+    "Information Gathering/Port Scanning.md",
+    "Bug Bounty Hunting/Reconnaissance.md",
     "Bug Bounty Hunting/Find Bugs in Hidden React Source Code.md",
     "Post Exploitation/Privelege Escalation/Windows/Automated Enumeration Tools.md",
     "Post Exploitation/Privelege Escalation/Windows/Enumeration.md",
@@ -190,13 +193,6 @@
     "System Security/Linux Binary Exploitation/README.md",
     "Post Exploitation/Privelege Escalation/Linux/Service Exploits.md",
     "Post Exploitation/Privelege Escalation/Linux/SUID & GUID.md",
-    "Post Exploitation/Privelege Escalation/Linux/Weak File Permissions.md",
-    "Post Exploitation/Privelege Escalation/Linux/Wildcard Injection.md",
-    "Post Exploitation/Privelege Escalation/Linux/SUDO.md",
-    "Post Exploitation/Pivoting/Meterpreter.md",
-    "Shell/README.md",
-    "Post Exploitation/Privelege Escalation/Linux/PATH.md",
-    "Post Exploitation/Privelege Escalation/Linux/NFS.md",
     "IA",
     "Web Exploitation/CSRF/Bypassing CSRF",
     "Web Exploitation/Untitled",

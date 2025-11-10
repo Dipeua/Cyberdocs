@@ -1,6 +1,3 @@
-
-# Reconnaissance
-
 Installation
 
 ```sh
