@@ -1,20 +1,24 @@
 {
   "main": {
-    "id": "2f9fa8a753173cc5",
+    "id": "54dbd049e5fe0bc4",
     "type": "split",
     "children": [
       {
-        "id": "3c1acdf62ce5c95b",
+        "id": "536328289495a647",
         "type": "tabs",
         "children": [
           {
-            "id": "fd6c169e252fe439",
+            "id": "a24c3e8aeaee12ad",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Information Gathering/Passive Recon/Web.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Web"
             }
           }
         ]
@@ -23,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "c3ee6d970a40261b",
+    "id": "5342ee0684b1bde3",
     "type": "split",
     "children": [
       {
-        "id": "3d75ffb3fdfa2942",
+        "id": "7352da53cd2424d2",
         "type": "tabs",
         "children": [
           {
-            "id": "a6051fb9233d8e27",
+            "id": "e3b8cfbb33102666",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,7 +48,7 @@
             }
           },
           {
-            "id": "fc9de80e0ee8bfe1",
+            "id": "2d1ca8d44c9f7ef6",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -57,40 +61,41 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Rechercher"
+              "title": "Search"
             }
           },
           {
-            "id": "a3186fc575ade3b8",
+            "id": "9efa6d2a3560c887",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Signet"
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 345.5
+    "width": 300,
+    "collapsed": true
   },
   "right": {
-    "id": "8e4623bbee98bc02",
+    "id": "a471b3b8d98f7586",
     "type": "split",
     "children": [
       {
-        "id": "f3bfd2e5e17ec6eb",
+        "id": "350ae27be715fbe9",
         "type": "tabs",
         "children": [
           {
-            "id": "73e43f105d6b5959",
+            "id": "8ea011d4c3125bf6",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Exploitation/CSRF/Bypassing CSRF/Bypassing SameSite cookie restrictions.md",
+                "file": "Information Gathering/Passive Recon/Web.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,25 +105,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétrolien pour Bypassing SameSite cookie restrictions"
+              "title": "Backlinks for Web"
             }
           },
           {
-            "id": "c978a9d50f6b194c",
+            "id": "fae044e3315a1825",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5. Replacing Content.md",
+                "file": "Information Gathering/Passive Recon/Web.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants de 5. Replacing Content"
+              "title": "Outgoing links from Web"
             }
           },
           {
-            "id": "7fdfc1c7c2398359",
+            "id": "248dff4b0fd41ec9",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -129,22 +134,22 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Mots-clés"
+              "title": "Tags"
             }
           },
           {
-            "id": "bb8ab3dace284bbf",
+            "id": "400665af155e7aea",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "5. Replacing Content.md",
+                "file": "Information Gathering/Passive Recon/Web.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Plan de 5. Replacing Content"
+              "title": "Outline of Web"
             }
           }
         ]
@@ -165,42 +170,6 @@
       "bases:Create new base": false
     }
   },
-  "active": "a6051fb9233d8e27",
-  "lastOpenFiles": [
-    "Active Directory/Post Exploitation/Persistence/Skeleton Key.md",
-    "Active Directory/Ressources.md",
-    "Active Directory/Attacking CS/CVE-2022-26923.md",
-    "IA/TTP.md",
-    "Information Gathering/README.md",
-    "Information Gathering/Port Scanning.md",
-    "Bug Bounty Hunting/Reconnaissance.md",
-    "Bug Bounty Hunting/Find Bugs in Hidden React Source Code.md",
-    "Post Exploitation/Privelege Escalation/Windows/Automated Enumeration Tools.md",
-    "Post Exploitation/Privelege Escalation/Windows/Enumeration.md",
-    "Post Exploitation/Privelege Escalation/Windows/Services Permissions.md",
-    "Post Exploitation/Privelege Escalation/Windows/Registry.md",
-    "Post Exploitation/Privelege Escalation/Windows/Kernel Exploits.md",
-    "Post Exploitation/Privelege Escalation/Windows/Harvesting Passwords.md",
-    "Post Exploitation/Privelege Escalation/Windows/DLL Hijacking.md",
-    "Post Exploitation/Privelege Escalation/Windows/CVEs.md",
-    "Post Exploitation/Privelege Escalation/Windows/Windows Subsystem for Linux.md",
-    "Post Exploitation/Privelege Escalation/Windows/Windows Privileges.md",
-    "Post Exploitation/Privelege Escalation/Windows/Startup Applications.md",
-    "Post Exploitation/Pivoting/Enumeration.md",
-    "System Security/Linux Binary Exploitation/Stack/Ret2Libc.md",
-    "System Security/Linux Binary Exploitation/Stack/Reverse Shell.md",
-    "System Security/Linux Binary Exploitation/Stack/Shell Code.md",
-    "System Security/Linux Binary Exploitation/README.md",
-    "Post Exploitation/Privelege Escalation/Linux/Service Exploits.md",
-    "Post Exploitation/Privelege Escalation/Linux/SUID & GUID.md",
-    "IA",
-    "Web Exploitation/CSRF/Bypassing CSRF",
-    "Web Exploitation/Untitled",
-    "Images/Pasted image 20250626123904.png",
-    "Images/Pasted image 20250626123015.png",
-    "Images/Pasted image 20250626122557.png",
-    "Images/Pasted image 20250626120652.png",
-    "Images/Pasted image 20250626101654.png",
-    "Pasted image 20250626122905.png"
-  ]
+  "active": "a24c3e8aeaee12ad",
+  "lastOpenFiles": []
 }
