@@ -107,7 +107,7 @@ waybackurls -dates https://target.com > waybackurls_output.txt
 nslookup -type=NS target.com
 
 # Transfert de zone à l'aide de Nslookup sur le domaine cible et son serveur de noms.
-nslookup -type=any -query=AXFR $TARGET <nameserver>
+nslookup -type=any -query=AXFR target.com <nameserver>
 ```
 
 > Si nous parvenons à effectuer un transfert de zone réussi pour un domaine, il n'est pas nécessaire de continuer à énumérer ce domaine particulier car cela extraira toutes les informations disponibles.
@@ -116,10 +116,10 @@ nslookup -type=any -query=AXFR $TARGET <nameserver>
 
 ```sh
 # Identification de la technologie.
-whatweb -a 3 https://$TARGET -v
+whatweb -a 3 https://target.com -v
 
 # Empreintes digitales WAF.
-wafw00f -v https://$TARGET
+wafw00f -v https://target.com
 ```
 
 [Aquatone]([https://github.com/michenriksen/aquatone](https://github.com/michenriksen/aquatone)) effectuer des captures d'écran pour une liste de sous-domains
