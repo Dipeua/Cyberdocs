@@ -1,3 +1,7 @@
+# Reconnaissance
+
+https://github.com/thevillagehacker/Bug-Hunting-Arsenal
+
 Installation
 
 ```sh
@@ -13,7 +17,7 @@ sudo apt install build-essential
 make
 
 # Install all Project Discovery tools
-go install -v github.com/projectdiscovery/pdtm/cmd/pdtm@latest
+https://github.com/projectdiscovery/pdtm/releases
 pdtm -ia -ua
 ```
 
@@ -22,7 +26,7 @@ pdtm -ia -ua
 **Find root domain for a particular target**
 
 - Go to https://www.whoxy.com
-- Enter the domain target (ex: sony.com) and look at the Company section
+- Enter the domain target (ex: sony.com) and look at the `Company` section
 - Find ASN for a particular organisation
 
 	- Go to https://bgp.he.net and search for organisation (ex: sony)
@@ -34,7 +38,7 @@ amass intel -asn "ASN_VALUE" -o sony_amass_asn.txt -v
 
 ## Discovering Subdomains
 
-**Subdomain enumeration**
+Subdomain enumeration
 
 ```sh
 export $TARGET=sony.com
@@ -45,9 +49,9 @@ subfinder -silent -pc -all -recursive -active -d $TARGET -o sony_subfinder_subdo
 amass enum -d $TARGET | grep -Eo "([a-zA-Z0-9.-]+\.)*sony\.com" | sort -u | tee -a sony_amass_subdomains.txt
 ```
 
-https://github.com/trickest/resolvers
-
 Subdomain Bruteforcing
+
+Download the `resolvers.txt` file on https://github.com/trickest/resolvers
 
 ```sh
 ffuf -c -ic -u https://FUZZ.$TARGET/ -w /usr/share/seclists/Discovery/DNS/all-subdomains.txt:FUZZ -o sony_ffuf_subdomains.txt
@@ -86,33 +90,30 @@ export CENSYS_API_SECRET=
 python3 cloudflaire.py $TARGET
 ```
 
+Apres avoir identifier l'IP de la cible
+
 ```sh
 naabu -silent -host $TARGET -p 1-65535 -ep 22 -s SYN -source-ip 8.8.8.8 -Pn -sD -sV -verify -o sony_naabu_portscan.txt
 ```
 
 ## Content Discovery
-## Combining Tools
+
+- [Fuff](../Web%20Exploitation/Ffuf.md)
 
 ```sh
-cat subdomains-out.txt | alterx -silent | dnsx -silent | naabu -top-ports 100 -ep 22 | httpx-pd -title -sc -cl -fr -location -o httpx.txt
+echo 'https://target.com' | gau > allurls.txt
+echo 'https://target.com' | waybackurls > way.txt
+
+urlfinder -d target.com
+katana -u https://target.com -jc -xhr -jsl -aff 
 ```
 
-Content dicovery
-
 ```sh
-katana -u http://target.com -jc -jsl
-cat open-ports.txt | katana -jsl
-cat open-ports.txt | katana -H 'headers' -xhr -jsl -aff
-
-katana -u http://target.com -H 'headers' -xhr -jsl -aff | httpx -ct -cl -sc
+cat subdomains.txt | alterx -silent | dnsx -silent | naabu -top-ports 100 -ep 22 | httpx-pd -title -sc -cl -fr -location -o httpx.txt
 ```
 
 For API
 
 ```sh
 chaos-client -d target.com -silent | grep api | alterx -silent | dnsx -silent | naabu -p 443,8443 -silent | tee -a recon.txt
-```
-
-```
-urlfinder -d target.com
 ```
