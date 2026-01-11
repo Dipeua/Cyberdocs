@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8fdfd8e517171357",
+        "id": "d980ded79e934477",
         "type": "tabs",
         "children": [
           {
-            "id": "c0ca25dee2cc562c",
+            "id": "c4409e67a8506f07",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -165,17 +165,20 @@
       "bases:Create new base": false
     }
   },
-  "active": "c0ca25dee2cc562c",
+  "active": "c4409e67a8506f07",
   "lastOpenFiles": [
-    "Web Exploitation/ffuf.md",
-    "Web Exploitation/SQLi/Other Exploitation.md",
-    "Web Exploitation/SQLi/SQL Map.md",
     "Web Exploitation/SQLi/README.md",
-    "Web Exploitation/SQLi/Payloads.md",
-    "Web Exploitation/SQLi/Error-Based.md",
-    "Web Exploitation/SQLi/Out-of-band.md",
     "Web Exploitation/SQLi/Blind.md",
     "Web Exploitation/SQLi/In-Band.md",
+    "UNION.md",
+    "Web Exploitation/SQLi/Error-Based.md",
+    "Web Exploitation/SQLi/Out-of-band.md",
+    "Web Exploitation/SQLi/Payloads.md",
+    "Web Exploitation/SQLi/Other Exploitation.md",
+    "Shell/README.md",
+    "Defensive Security/Fundamentals/Cyber Defence Frameworks/Cyber Kill Chain.md",
+    "Web Exploitation/ffuf.md",
+    "Web Exploitation/SQLi/SQL Map.md",
     "Web Exploitation/Broken Access control/README.md",
     "Web Exploitation/Broken Access control/IDOR.md",
     "Web Exploitation/OSi/Evasion Tools.md",
@@ -189,9 +192,6 @@
     "Web Exploitation/WordPress/Enumeration.md",
     "Web Exploitation/WordPress/README.md",
     "Information Gathering/Port Scanning.md",
-    "Setting Up/Container.md",
-    "Setting Up/Anonymization.md",
-    "System Security/README.md",
-    "Bug Bounty Hunting/Reconnaissance.md"
+    "Setting Up/Container.md"
   ]
 }
